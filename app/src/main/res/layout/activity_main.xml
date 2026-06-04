@@ -5,15 +5,8 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/light_purple"
     tools:context=".MainActivity">
-
-    <!-- Background Wallpaper -->
-    <ImageView
-        android:id="@+id/backgroundWallpaper"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:scaleType="centerCrop"
-        android:alpha="0.6" />
 
     <LinearLayout
         android:layout_width="match_parent"
