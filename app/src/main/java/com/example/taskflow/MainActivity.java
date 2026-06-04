@@ -13,7 +13,6 @@ import android.widget.Button;
 import android.widget.CalendarView;
 import android.widget.EditText;
 import android.widget.ImageButton;
-import android.widget.ImageView;
 import android.widget.ProgressBar;
 import android.widget.Spinner;
 import android.widget.TextView;
@@ -30,7 +29,6 @@ import androidx.recyclerview.widget.ItemTouchHelper;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.bumptech.glide.Glide;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
 import org.json.JSONArray;
@@ -65,11 +63,6 @@ public class MainActivity extends AppCompatActivity implements TaskAdapter.OnTas
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
-        ImageView bg = findViewById(R.id.backgroundWallpaper);
-        Glide.with(this)
-                .load("https://w0.peakpx.com/wallpaper/474/885/HD-wallpaper-pink-mercedes-benz-g-wagon.jpg")
-                .into(bg);
 
         createNotificationChannel();
 
