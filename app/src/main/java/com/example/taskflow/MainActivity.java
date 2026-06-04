@@ -66,6 +66,11 @@ public class MainActivity extends AppCompatActivity implements TaskAdapter.OnTas
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        ImageView bg = findViewById(R.id.backgroundWallpaper);
+        Glide.with(this)
+                .load("https://w0.peakpx.com/wallpaper/474/885/HD-wallpaper-pink-mercedes-benz-g-wagon.jpg")
+                .into(bg);
+
         createNotificationChannel();
 
         taskList = loadTasks();
