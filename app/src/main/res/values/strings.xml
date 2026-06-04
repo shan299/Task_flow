@@ -1,3 +1,31 @@
 <resources>
     <string name="app_name">Task flow</string>
+    <string name="showing_tasks_for">Showing tasks for %1$s</string>
+    <string name="task_deleted">Task Deleted</string>
+    <string name="showing_all_tasks">Showing all tasks</string>
+    <string name="notification_channel_name">Task Reminders</string>
+    <string name="notification_channel_description">Channel for task reminders</string>
+    <string name="notification_task_added_title">Task Added</string>
+    <string name="notification_task_added_message">You have a new task: %1$s</string>
+    <string name="priority_high">High</string>
+    <string name="priority_medium">Medium</string>
+    <string name="priority_low">Low</string>
+    <string name="edit_task">Edit Task</string>
+    <string name="add_new_task">Add New Task</string>
+    <string name="select_date">Select Date</string>
+    <string name="add">Add</string>
+    <string name="update">Update</string>
+    <string name="title_empty_error">Title cannot be empty</string>
+    <string name="cancel">Cancel</string>
+    <string name="tasks_remaining_summary">%1$d tasks remaining (Tap to show all)</string>
+    <string name="task_date_toast">Task date: %1$s</string>
+    <string name="no_due_date_set">No due date set for this task</string>
+    <string name="no_date">No date</string>
+    <string name="search_tasks_hint">Search tasks&#8230;</string>
+    <string name="task_title_hint">Task Title</string>
+    <string name="priority">Priority</string>
+    <string name="due_date">Due Date</string>
+    <string name="due_no_date">Due: No date</string>
+    <string name="progress_percentage">%1$d%%</string>
+    <string name="wallpaper_url">https://w0.peakpx.com/wallpaper/474/885/HD-wallpaper-pink-mercedes-benz-g-wagon.jpg</string>
 </resources>

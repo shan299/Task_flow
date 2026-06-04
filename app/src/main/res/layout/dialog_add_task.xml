@@ -9,13 +9,13 @@
         android:id="@+id/etTaskTitle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Task Title"
+        android:hint="@string/task_title_hint"
         android:inputType="textCapSentences" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Priority"
+        android:text="@string/priority"
         android:layout_marginTop="16dp" />
 
     <Spinner
@@ -26,7 +26,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Due Date"
+        android:text="@string/due_date"
         android:layout_marginTop="16dp" />
 
     <Button
@@ -34,7 +34,7 @@
         style="?android:attr/borderlessButtonStyle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Select Date"
+        android:text="@string/select_date"
         android:textAlignment="viewStart" />
 
 </LinearLayout>

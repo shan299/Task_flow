@@ -29,9 +29,9 @@
                 android:id="@+id/taskSummary"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="0 tasks remaining (Tap to show all)"
                 android:textSize="18sp"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                tools:text="0 tasks remaining (Tap to show all)" />
             <ImageButton
                 android:id="@+id/btnThemeToggle"
                 android:layout_width="48dp"
@@ -48,7 +48,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
             android:background="@android:color/white"
-            app:queryHint="Search tasks..." />
+            app:queryHint="@string/search_tasks_hint" />
 
         <!-- Progress Tracking -->
         <LinearLayout
